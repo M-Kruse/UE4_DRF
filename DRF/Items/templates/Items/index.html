@@ -1,0 +1,29 @@
+
+{% block title %}Items{% endblock %}
+
+{% block content %}
+<!-- <div class="col-sm-2">
+  <button data-toggle="modal" data-target="#modal-new-job-agg" type="button" class="btn btn-block btn-primary btn-sm">Add New Item</button>
+</div> -->
+<div class="card-body">
+ <div id="example2_wrapper" class="dataTables_wrapper dt-bootstrap4"><div class="row"><div class="col-sm-12 col-md-6"></div><div class="col-sm-12 col-md-6"></div></div><div class="row"><div class="col-sm-12">
+  <table id="example2" class="table table-bordered table-hover dataTable" style="font-size: 12px" role="grid" aria-describedby="example2_info">
+  <thead  align="center">
+  <tr role="row">
+    
+    <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1">Item Name</th>
+
+    
+  </thead>
+<tbody>
+    {% for item in items_list %}
+  <tr role="row" class="odd">
+<td><i class="far fa-2x fa-star"></i></td>
+
+    <td> {{item.name}} </td>
+    
+  </tr>
+  {% endfor %}
+</tbody>
+</table>
+  {% endblock %}
