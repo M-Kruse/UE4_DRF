@@ -1,7 +1,6 @@
 # UE4-DRF
 
-![image](https://user-images.githubusercontent.com/46699116/77034452-4fd30980-6967-11ea-8d47-607d8583c231.png)
-
+![image](https://user-images.githubusercontent.com/46699116/77597640-c10d4200-6ebc-11ea-8f23-81af5ad043fd.png)
 
 This project is for playing around with some UE4 game concepts and learning more about REST API at the same time.
 
