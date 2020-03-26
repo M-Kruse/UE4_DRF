@@ -67,4 +67,4 @@ Now you should be able to start the API.
 
 `python manage.py runserver 127.0.0.1:8000`
 
-You may now use the Play button in UE4 and the Blue example station will have a green electric arc indicating that the client and server are communicating.
+You may now use the Play button in UE4 and the Blue example station will have a green electric arc indicating that the client and server are communicating. A door will then open and you may proceed to examples in the hall.
