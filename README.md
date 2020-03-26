@@ -35,8 +35,7 @@ You will need to download the [Epic Games Launcher](https://launcher-public-serv
 
 The project is configured to work with a dedicated server, so you need to click on the arrow of the "Play" button and check the box for dedicated server and set the players to at least 2.
 
-![image](https://user-images.githubusercontent.com/46699116/77601149-26663080-6ec7-11ea-928b-ed9bf9d666cd.png)
-
+![image](https://user-images.githubusercontent.com/46699116/77601255-80ff8c80-6ec7-11ea-8bd4-9f4a424aec99.png)
 
 ## DRF
 
@@ -57,6 +56,7 @@ From either your user or virtualenv, install the requirements with pip
 For the simple heartbeat example, the API just serves up data like {"healthy":"True"} so we need to add a record.
 
 `python manage.py runshell`
+
 ```
 >>> from api.models import Heartbeat
 >>> hb = Heartbeat(healthy=True)
